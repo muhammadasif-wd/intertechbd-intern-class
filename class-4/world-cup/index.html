@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Cup</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuggles&family=JetBrains+Mono:wght@300;400;500;700;800&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,800;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- install tailwind css (javascript) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind css (css) -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        body {
+          font-family: "Poppins", sans-serif;
+        }
+      }
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="w-11/12 mx-auto">
+    <header class="mt-16">
+      <!-- hero section -->
+      <section class="bg-[#161616] rounded-md flex">
+        <div class="p-24 w-6/12">
+          <h1 class="text-7xl text-white font-bold">
+            The Greatest show on the earth
+          </h1>
+          <p class="text-base text-white font-normal my-10">
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old.
+          </p>
+          <button class="bg-red-700 text-white text-xl py-4 px-5 rounded-md">
+            Watch Live
+          </button>
+        </div>
+        <div>
+          <img
+            class="w-[581px] h-[613px]"
+            src="./images/kisspng-marcelo-vieira-brazil-national-football-team-footb-brazil-5ac0e6b8ef0ed6 1@2x.png"
+            alt=""
+            loading="lazy"
+          />
+        </div>
+      </section>
+    </header>
+    <main class="my-20">
+      <!-- tab section -->
+      <section class="flex gap-5">
+        <div
+          class="flex flex-col gap-y-5 bg-[#161616] p-7 rounded-md w-[312px] h-[312px]"
+        >
+          <button
+            class="bg-red-700 text-white text-xl w-[252px] h-[64px] rounded-md"
+          >
+            Upcoming Match
+          </button>
+          <button
+            class="bg-white text-[#161616] text-xl w-[252px] h-[64px] rounded-md"
+          >
+            All Group
+          </button>
+          <button
+            class="bg-white text-[#161616] text-xl w-[252px] h-[64px] rounded-md"
+          >
+            Blog
+          </button>
+        </div>
+        <!-- create a simple card -->
+        <section class="grid grid-cols-3 gap-5">
+          <div
+            class="border border-gray-300 px-8 py-12 rounded-md w-[312px] h-[242px]"
+          >
+            <div class="flex items-center gap-x-5">
+              <img
+                loading="lazy"
+                class="w-[93.044px] h-[56.178px]"
+                src="./images/germanyc 1.png"
+                alt=""
+              />
+              <p class="text-[#161616] text-base font-bold">VS</p>
+              <img
+                loading="lazy"
+                class="w-[93.044px] h-[56.178px]"
+                src="./images/Frame.png"
+                alt=""
+              />
+            </div>
+            <h1 class="text-xl font-semibold text-center my-2">
+              Germany VS France
+            </h1>
+            <p class="text-center">April 01, 2023, 1.00 AM</p>
+          </div>
+          <div
+            class="border border-gray-300 px-8 py-12 rounded-md w-[312px] h-[242px]"
+          >
+            <div class="flex items-center gap-x-5">
+              <img
+                loading="lazy"
+                class="w-[93.044px] h-[56.178px]"
+                src="./images/germanyc 1.png"
+                alt=""
+              />
+              <p class="text-[#161616] text-base font-bold">VS</p>
+              <img
+                loading="lazy"
+                class="w-[93.044px] h-[56.178px]"
+                src="./images/Frame.png"
+                alt=""
+              />
+            </div>
+            <h1 class="text-xl font-semibold text-center my-2">
+              Germany VS France
+            </h1>
+            <p class="text-center">April 01, 2023, 1.00 AM</p>
+          </div>
+          <div
+            class="border border-gray-300 px-8 py-12 rounded-md w-[312px] h-[242px]"
+          >
+            <div class="flex items-center gap-x-5">
+              <img
+                loading="lazy"
+                class="w-[93.044px] h-[56.178px]"
+                src="./images/germanyc 1.png"
+                alt=""
+              />
+              <p class="text-[#161616] text-base font-bold">VS</p>
+              <img
+                loading="lazy"
+                class="w-[93.044px] h-[56.178px]"
+                src="./images/Frame.png"
+                alt=""
+              />
+            </div>
+            <h1 class="text-xl font-semibold text-center my-2">
+              Germany VS France
+            </h1>
+            <p class="text-center">April 01, 2023, 1.00 AM</p>
+          </div>
+          <div
+            class="border border-gray-300 px-8 py-12 rounded-md w-[312px] h-[242px]"
+          >
+            <div class="flex items-center gap-x-5">
+              <img
+                loading="lazy"
+                class="w-[93.044px] h-[56.178px]"
+                src="./images/germanyc 1.png"
+                alt=""
+              />
+              <p class="text-[#161616] text-base font-bold">VS</p>
+              <img
+                loading="lazy"
+                class="w-[93.044px] h-[56.178px]"
+                src="./images/Frame.png"
+                alt=""
+              />
+            </div>
+            <h1 class="text-xl font-semibold text-center my-2">
+              Germany VS France
+            </h1>
+            <p class="text-center">April 01, 2023, 1.00 AM</p>
+          </div>
+          <div
+            class="border border-gray-300 px-8 py-12 rounded-md w-[312px] h-[242px]"
+          >
+            <div class="flex items-center gap-x-5">
+              <img
+                loading="lazy"
+                class="w-[93.044px] h-[56.178px]"
+                src="./images/germanyc 1.png"
+                alt=""
+              />
+              <p class="text-[#161616] text-base font-bold">VS</p>
+              <img
+                loading="lazy"
+                class="w-[93.044px] h-[56.178px]"
+                src="./images/Frame.png"
+                alt=""
+              />
+            </div>
+            <h1 class="text-xl font-semibold text-center my-2">
+              Germany VS France
+            </h1>
+            <p class="text-center">April 01, 2023, 1.00 AM</p>
+          </div>
+          <div
+            class="border border-gray-300 px-8 py-12 rounded-md w-[312px] h-[242px]"
+          >
+            <div class="flex items-center gap-x-5">
+              <img
+                loading="lazy"
+                class="w-[93.044px] h-[56.178px]"
+                src="./images/germanyc 1.png"
+                alt=""
+              />
+              <p class="text-[#161616] text-base font-bold">VS</p>
+              <img
+                loading="lazy"
+                class="w-[93.044px] h-[56.178px]"
+                src="./images/Frame.png"
+                alt=""
+              />
+            </div>
+            <h1 class="text-xl font-semibold text-center my-2">
+              Germany VS France
+            </h1>
+            <p class="text-center">April 01, 2023, 1.00 AM</p>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

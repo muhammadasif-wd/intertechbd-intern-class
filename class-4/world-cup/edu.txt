@@ -1,0 +1,6 @@
+1 step: Create a project folder
+2 step: create a html file and create your html folder structure.
+3 step: install a fonts on google fonts \\ style tag import your font style
+4 step: install your project tailwind css or bootstrap for fast design.
+5 step: look your figma design
+6 step: download your important image on figma design
